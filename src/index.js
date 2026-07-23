@@ -1,5 +1,5 @@
 /**
- * @yebo/verify - standalone, offline verifier for Yebo mandate artifacts.
+ * yebo-verify - standalone, offline verifier for Yebo mandate artifacts.
  *
  * Programmatic API. The CLI in bin/verify.js is a thin wrapper around this.
  * Imports only node:crypto. No network. No configuration. No account.

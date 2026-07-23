@@ -2,9 +2,9 @@
 /**
  * yebo-verify - verify a Yebo mandate artifact offline.
  *
- *   npx @yebo/verify mandate.json --key public-key.pem
- *   npx @yebo/verify mandate.json --key public-key.pem --explain
- *   npx @yebo/verify mandate.json --key public-key.pem --json
+ *   npx yebo-verify mandate.json --key public-key.pem
+ *   npx yebo-verify mandate.json --key public-key.pem --explain
+ *   npx yebo-verify mandate.json --key public-key.pem --json
  *
  * Exit codes: 0 = PASS, 1 = FAIL, 2 = usage / file error.
  *

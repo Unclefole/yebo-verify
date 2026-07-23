@@ -1,4 +1,4 @@
-# @yebo/verify
+# yebo-verify
 
 Verify a Yebo mandate artifact yourself - offline, with no account, no API
 key, and no access to Yebo's systems. One artifact, one public key, one
@@ -30,7 +30,7 @@ record or from [yebo.dev/verify](https://yebo.dev/verify).
 ## Run it
 
 ```bash
-npx @yebo/verify mandate.json --key public-key.pem
+npx yebo-verify mandate.json --key public-key.pem
 ```
 
 On success you will see:
@@ -57,7 +57,7 @@ key, or a malformed artifact.
 Add `--explain` to print what each field means in audit terms:
 
 ```bash
-npx @yebo/verify mandate.json --key public-key.pem --explain
+npx yebo-verify mandate.json --key public-key.pem --explain
 ```
 
 Add `--json` for machine-readable output.
@@ -83,7 +83,7 @@ altered after approval.
 Verify the genuine artifact - this must PASS:
 
 ```bash
-npx @yebo/verify examples/sample-mandate.json --key examples/sample-public-key.pem
+npx yebo-verify examples/sample-mandate.json --key examples/sample-public-key.pem
 # ... RESULT: PASS - the artifact is exactly what the approver signed.
 # exit code 0
 ```
@@ -91,7 +91,7 @@ npx @yebo/verify examples/sample-mandate.json --key examples/sample-public-key.p
 Verify the tampered copy with the same key - this must FAIL:
 
 ```bash
-npx @yebo/verify examples/sample-mandate-tampered.json --key examples/sample-public-key.pem
+npx yebo-verify examples/sample-mandate-tampered.json --key examples/sample-public-key.pem
 # ... RESULT: FAIL - this artifact does not verify.
 # [FAIL] Mandate integrity - the contents do NOT match what was approved.
 # exit code 1

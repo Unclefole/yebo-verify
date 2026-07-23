@@ -1,6 +1,6 @@
 {
-  "name": "@yebo/verify",
-  "version": "0.1.0",
+  "name": "yebo-verify",
+  "version": "0.1.1",
   "description": "Standalone, offline verifier for Yebo mandate artifacts. One artifact, one public key, no network, no account.",
   "license": "MIT",
   "type": "module",

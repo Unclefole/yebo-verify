@@ -1,5 +1,5 @@
 /**
- * Tests for @yebo/verify.
+ * Tests for yebo-verify.
  *
  * Fixtures are produced in-test with the same signing scheme production
  * mandates use: an ECDSA P-256 key signs SHA-256 over
