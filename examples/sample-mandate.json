@@ -1,0 +1,25 @@
+{
+  "artifact_type": "yebo.mandate.artifact",
+  "artifact_version": "1.0",
+  "mandate": {
+    "mandate_id": "f2d1cf0b-a55c-4dc3-b9aa-dd34e0eba9b2",
+    "subject_identity": "agent:ops-runner-3",
+    "counterparty_identity": "vendor:northwind-industrial",
+    "capability": "transfer.funds",
+    "policy_hash": "605ed3fac8ca6a2448a0e7564aa78c240f442f338c24a7d8cef0883a7b044f7a",
+    "nonce": "qR8Yt35Dnmu3yuNmX8nRgto98UthpMCpJQPvEE6OJs4",
+    "issued_at": "2026-07-23T05:11:03.478Z",
+    "expires_at": "2026-07-23T05:16:03.478Z",
+    "amount": 1850000,
+    "currency": "USD"
+  },
+  "approval": {
+    "approved_by": "cfo@acme.example",
+    "mandate_hash": "afa1f4aabdf7b2ae108ab7c354f27e20b5aca2be7b40d7fc5e16540dd966ef9b",
+    "policy_hash": "605ed3fac8ca6a2448a0e7564aa78c240f442f338c24a7d8cef0883a7b044f7a",
+    "timestamp": "2026-07-23T05:11:03.480Z",
+    "signature": "MEUCIQCAj4ZTTr-Md--tZCidm38HCWA-rDs9VxE7GDLlBYSBdgIgTWDLGq3EuWyQd3uFFeiEg99y4sy4HMb9Wr7cqNSuttM",
+    "algorithm": "ECDSA-P256-SHA256",
+    "key_fingerprint": "4598e9a4e18898b3b37e6faa149662ac068524da9e6b9ad89cfb53ea1e4589b7"
+  }
+}

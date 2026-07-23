@@ -1,0 +1,40 @@
+{
+  "name": "@yebo/verify",
+  "version": "0.1.0",
+  "description": "Standalone, offline verifier for Yebo mandate artifacts. One artifact, one public key, no network, no account.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "yebo-verify": "bin/verify.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/verify.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unclefole/yebo-verify.git"
+  },
+  "homepage": "https://github.com/Unclefole/yebo-verify#readme",
+  "bugs": {
+    "url": "https://github.com/Unclefole/yebo-verify/issues"
+  },
+  "keywords": [
+    "verification",
+    "audit",
+    "signature",
+    "mandate",
+    "offline"
+  ]
+}
